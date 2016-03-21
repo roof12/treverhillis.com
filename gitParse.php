@@ -94,7 +94,8 @@ foreach ($gitDecode as $value) {
 				'source/excanvas.js',
 				'source/jquery.canvasjs.js',
 				'canvasjs/canvasjs.min.js',
-				'canvasjs/jquery.canvasjs.min.js'
+				'canvasjs/jquery.canvasjs.min.js',
+				'backup.json'
 			);
 
 			//check to make sure gitIgnore isnt represented in data
