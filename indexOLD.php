@@ -1,22 +1,34 @@
 <!DOCTYPE html>
 <html>
 <link rel="stylesheet" type="text/css" href="css/reset.css?<?php echo time(); ?>">
-<link rel="stylesheet" type="text/css" href="css/styles.css?<?php echo time(); ?>"/>
+<link rel="stylesheet" type="text/css" href="css/refresh2.css?<?php echo time(); ?>"/>
 <script src="http://canvasjs.com/assets/script/canvasjs.min.js"></script>
 <head>
 	<title>Trever Hillis</title>
 </head>
 <body>
 	<div class="page-wrapper">
-			<input type="checkbox" id="nav-trigger" class="nav-trigger"/>
-			<label for="nav-trigger"></label>
-		<div class="nav-trigger-container">
-			<svg height="100" width="100">
-  				<circle cx="50" cy="50" r="40" fill="#141434" />
-			</svg>
-		</div>
-		<nav class="main-nav" tabindex="0">
 
+		<nav class="main-nav" tabindex="0">
+			<div class="burger-trigger">
+				<svg class="burger">
+					<rect x=".5em" y=".5em" height=".6em" width="3.6em" fill="#1c1c44" />
+					<rect x=".5em" y="1.7em" height=".6em" width="3.6em" fill="#1c1c44" />
+					<rect x=".5em" y="2.9em" height=".6em" width="3.6em" fill="#1c1c44" />
+				</svg>
+			</div>
+			<div class="close-trigger">
+				<svg class="close">
+					<line x1=".4em" x2="3.3em" y1="4em" y2=".5em" stroke="#FF5C33" stroke-width=".8em" />
+					<line x1=".4em" x2="3.3em" y1=".5em" y2="4em" stroke="#FF5C33" stroke-width=".8em" />
+				</svg>
+			</div>
+
+			<div class="bio-pic">
+			<!-- self portrait goes here -->
+			</div>
+						<input type="checkbox" id="nav-trigger" class="nav-trigger"/>
+			<label for="nav-trigger"></label>
 			<ul class="nav-links">
 				<li><a href="#codecharts">codecharts</a></li>
 				<li><a href="#resume">resume</a></li>
@@ -24,9 +36,12 @@
 				<li><a href="#contact">contact</a></li>
 			</ul>
 			<div class="view-source">
-				<a class="view-source-link" href="source.php">view source</a>
+				<a class="view-source-link" href="">view source</a>
 			</div>
+
+
 		</nav>
+
 
 		<div class="content-wrapper">
 			<header>
@@ -34,19 +49,17 @@
 			</header>
 			<hr>
 
-			<div id="codecharts" class="nav-trigger-spacer"></div>
-			<article class="portfolio-wrapper">
+			<article id="codecharts" class="portfolio-wrapper">
 			<?php
-				include_once('php/gitParse.php');
+				include_once('gitParse.php');
 				echo '
 				<script type="text/javascript">
 
 				var today = new Date();
 
 				window.onload = function () {
-				    CanvasJS.addColorSet("barColor", ["#efefd0", "#800020", "#141434"]);
-				    CanvasJS.addColorSet("pieColor", ["#efefd0", "#800020", "#141434"]);
-				    CanvasJS.addColorSet("lineColor", ["#800020"]);
+				    CanvasJS.addColorSet("barColor", ["#efefd0"]);
+				    CanvasJS.addColorSet("pieColor", ["#efefd0", "#141434", "#efefd0"]);
 
 					var chartlinesOfCode = new CanvasJS.Chart("linesOfCode", {
 						backgroundColor: "#1c1c44",
@@ -88,11 +101,10 @@
 
 					var chartCommitsOfTheWeek = new CanvasJS.Chart("commitsOfTheWeek", {
 						backgroundColor: "#1c1c44",
-						colorSet: "lineColor",
+						colorSet: "barColor",
 					    data: [
 					    {
 					    	type: "line",
-					    	markerColor: "#efefd0",
 					        dataPoints: [
 						        { label: "monday", y: '.$mondayCommits.' },
 						        { label: "tuesday", y: '.$tuesdayCommits.' },
@@ -126,16 +138,15 @@
 			</div>
 			<div id="chartWrapper" style="width: 70%; margin: 0 auto;">
 				<h3>Percent of Languages Used</h3>
-				<div id="percentOfLanguages" style="height: 400px; width: 100%;"></div>
+				<div id="percentOfLanguages" style="height: 300px; width: 100%;"></div>
 			</div>
 			<div id="chartWrapper" style="width: 70%; margin: 0 auto;">
-				<h3>Days Commits are Made</h3>
+				<h3>Number of Commits For This Week</h3>
 				<div id="commitsOfTheWeek" style="height: 300px; width: 100%;"></div>
 			</div>
 			</article>
 
-			<div id="resume" class="nav-trigger-spacer"></div>
-			<article class="resume-wrapper">
+			<article id="resume" class="resume-wrapper">
 				<h3>Objective</h3>
 				<hr>
 					<p>
@@ -200,9 +211,7 @@
 					</p>
 				<h6 class="references">contact for references</h6>
 			</article>
-
-			<div id="portfolio" class="nav-trigger-spacer"></div>
-			<article class="portfolio-wrapper">
+			<article id="portfolio" class="portfolio-wrapper">
 
 			</article>
 		</div>

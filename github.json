@@ -1,5 +1,104 @@
 {"commits": [
 {
+    "sha": "75e8d89c2defa415767d9e11b080a61f0aab279e",
+    "commit": {
+        "author": {
+            "name": "revercreations",
+            "email": "revertcreations@gmail.com",
+            "date": "2016-03-21T21:14:13Z"
+        },
+        "committer": {
+            "name": "revercreations",
+            "email": "revertcreations@gmail.com",
+            "date": "2016-03-21T21:14:13Z"
+        },
+        "message": "remove backup.json, added to git ignore",
+        "tree": {
+            "sha": "f0e22bf9b29d3144ee7e96218d0e229f3e4580f0",
+            "url": "https://api.github.com/repos/revertcreations/treverhillis.com/git/trees/f0e22bf9b29d3144ee7e96218d0e229f3e4580f0"
+        },
+        "url": "https://api.github.com/repos/revertcreations/treverhillis.com/git/commits/75e8d89c2defa415767d9e11b080a61f0aab279e",
+        "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/revertcreations/treverhillis.com/commits/75e8d89c2defa415767d9e11b080a61f0aab279e",
+    "html_url": "https://github.com/revertcreations/treverhillis.com/commit/75e8d89c2defa415767d9e11b080a61f0aab279e",
+    "comments_url": "https://api.github.com/repos/revertcreations/treverhillis.com/commits/75e8d89c2defa415767d9e11b080a61f0aab279e/comments",
+    "author": {
+        "login": "revertcreations",
+        "id": 17818973,
+        "avatar_url": "https://avatars.githubusercontent.com/u/17818973?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/revertcreations",
+        "html_url": "https://github.com/revertcreations",
+        "followers_url": "https://api.github.com/users/revertcreations/followers",
+        "following_url": "https://api.github.com/users/revertcreations/following{/other_user}",
+        "gists_url": "https://api.github.com/users/revertcreations/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/revertcreations/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/revertcreations/subscriptions",
+        "organizations_url": "https://api.github.com/users/revertcreations/orgs",
+        "repos_url": "https://api.github.com/users/revertcreations/repos",
+        "events_url": "https://api.github.com/users/revertcreations/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/revertcreations/received_events",
+        "type": "User",
+        "site_admin": false
+    },
+    "committer": {
+        "login": "revertcreations",
+        "id": 17818973,
+        "avatar_url": "https://avatars.githubusercontent.com/u/17818973?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/revertcreations",
+        "html_url": "https://github.com/revertcreations",
+        "followers_url": "https://api.github.com/users/revertcreations/followers",
+        "following_url": "https://api.github.com/users/revertcreations/following{/other_user}",
+        "gists_url": "https://api.github.com/users/revertcreations/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/revertcreations/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/revertcreations/subscriptions",
+        "organizations_url": "https://api.github.com/users/revertcreations/orgs",
+        "repos_url": "https://api.github.com/users/revertcreations/repos",
+        "events_url": "https://api.github.com/users/revertcreations/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/revertcreations/received_events",
+        "type": "User",
+        "site_admin": false
+    },
+    "parents": [
+        {
+            "sha": "03c085f1d223f1fb7819468e7b41a523cc903318",
+            "url": "https://api.github.com/repos/revertcreations/treverhillis.com/commits/03c085f1d223f1fb7819468e7b41a523cc903318",
+            "html_url": "https://github.com/revertcreations/treverhillis.com/commit/03c085f1d223f1fb7819468e7b41a523cc903318"
+        }
+    ],
+    "stats": {
+        "total": 138,
+        "additions": 137,
+        "deletions": 1
+    },
+    "files": [
+        {
+            "sha": "d90cdbf2eef502f82fe9e707fc87c039c923a80c",
+            "filename": "gitParse.php",
+            "status": "modified",
+            "additions": 2,
+            "deletions": 1,
+            "changes": 3,
+            "blob_url": "https://github.com/revertcreations/treverhillis.com/blob/75e8d89c2defa415767d9e11b080a61f0aab279e/gitParse.php",
+            "raw_url": "https://github.com/revertcreations/treverhillis.com/raw/75e8d89c2defa415767d9e11b080a61f0aab279e/gitParse.php",
+            "contents_url": "https://api.github.com/repos/revertcreations/treverhillis.com/contents/gitParse.php?ref=75e8d89c2defa415767d9e11b080a61f0aab279e",
+            "patch": "@@ -94,7 +94,8 @@\n \t\t\t\t'source/excanvas.js',\n \t\t\t\t'source/jquery.canvasjs.js',\n \t\t\t\t'canvasjs/canvasjs.min.js',\n-\t\t\t\t'canvasjs/jquery.canvasjs.min.js'\n+\t\t\t\t'canvasjs/jquery.canvasjs.min.js',\n+\t\t\t\t'backup.json'\n \t\t\t);\n \n \t\t\t//check to make sure gitIgnore isnt represented in data"
+        },
+        {
+            "sha": "9af393829be7d25bb8708ad2345c928fa0afd235",
+            "filename": "github.json",
+            "status": "modified",
+            "additions": 135,
+            "deletions": 0,
+            "changes": 135,
+            "blob_url": "https://github.com/revertcreations/treverhillis.com/blob/75e8d89c2defa415767d9e11b080a61f0aab279e/github.json",
+            "raw_url": "https://github.com/revertcreations/treverhillis.com/raw/75e8d89c2defa415767d9e11b080a61f0aab279e/github.json",
+            "contents_url": "https://api.github.com/repos/revertcreations/treverhillis.com/contents/github.json?ref=75e8d89c2defa415767d9e11b080a61f0aab279e"
+        }
+    ]
+},{
     "sha": "03c085f1d223f1fb7819468e7b41a523cc903318",
     "commit": {
         "author": {

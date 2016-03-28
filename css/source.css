@@ -1,0 +1,85 @@
+body {
+	background: #1c1c44;
+}
+
+h1 {
+	color: #800020;
+}
+
+a {
+	color: #efefd0;
+	font-size: .55em;
+}
+
+label {
+	display: block;
+}
+
+.main-nav {
+	background: #141434;
+}
+
+.nav-links {
+	text-align: left;
+	margin-left: .3em;
+	padding-left: 0; 
+}
+.portfolio-wrapper {
+	background: #efefd0;
+	color: #141434;
+}
+
+.nav-trigger-container {
+	background: #efefd0;
+}
+
+.files1, .files2, .files3 {
+	display: none;
+	visibility: hidden;
+	margin-left: 0;
+	padding-left: 1em;
+}
+
+#subfolder1, #subfolder2, #subfolder3 {
+
+	position: absolute;
+	background: none;
+	opacity: 0;
+	cursor: pointer;
+}
+
+input[type="checkbox"]:before {
+	content: "";
+	position: fixed;
+	width: 3em;
+	height: 2em;
+}
+
+input[id="nav-trigger"]:before {
+ 	content: "";
+ 	position: fixed;
+ 	width: 7.5em;
+ 	height: 7.5em;
+ 	z-index: 999;
+ 	cursor: pointer;
+}
+
+#subfolder1:checked ~ .files1 {
+	display: block;
+	visibility: visible;
+}
+
+#subfolder2:checked ~ .files2 {
+	display: block;
+	visibility: visible;
+}
+
+#subfolder3:checked ~ .files3 {
+	display: block;
+	visibility: visible;
+}
+
+#default {
+	display: block;
+}
+

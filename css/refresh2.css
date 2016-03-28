@@ -1,0 +1,204 @@
+.page-wrapper {
+	width: 100%;
+}
+
+.main-nav {
+	position: fixed;
+	width: 18%;
+	height: 100%;
+	background: #efefd0;
+}
+
+.nav-trigger {
+	display: none;
+}
+
+.burger-trigger {
+	width: 5em;
+}
+
+.burger {
+	width: 5em;
+	display: none;
+}
+
+.close {
+	display: none;
+}
+
+.nav-links li {
+	padding-top: 1.2em;
+}
+
+.content-wrapper {
+	float: right;
+	width: 80%;
+}
+
+.trever-hillis {
+	text-align: right;
+	padding-right: .55em;
+}
+
+.view-source-link {
+	position: absolute;
+	bottom: 0;
+	padding-bottom: 1em;
+	color: red;
+	font-size: .55em;
+}
+.references {
+	text-align: right;
+}
+
+.bio-pic {
+	margin: .55em auto;
+	border-radius: 100%;
+	background: #141434;
+	width: 6em;
+	height: 6em;
+}
+
+.resume-wrapper, .portfolio-wrapper {
+	margin: 2em 0;
+	background: #1c1c44;
+	padding: 1em;
+	margin-right: 1em;
+	height: 800px;
+	overflow: scroll;
+	overflow-x: hidden;
+}
+
+.work-history-company {
+	padding-left: .85em;
+}
+
+.work-history-date {
+	padding-left: 1.55em;
+}
+
+.work-history-duties li {
+	list-style: circle;
+	font-family: 'Source Code Pro';
+	color: #efefd0;
+	font-size: .75em;
+}
+
+.work-history-job-title {
+	padding-left: 1.15em;
+}
+
+
+.contact-footer {
+	margin-top: 2em;
+	clear: both;
+	background: #1c1c44;
+	width: 100%;
+	height: 4em;
+	text-align: right;
+}
+
+.contact-footer p {
+	padding: .25em .5em 0 0;
+}
+
+@media screen and (max-width:950px) and (min-width:300px) {
+	.main-nav {
+		background: #efefd0;
+		width: 100%;
+		height: 4em;
+		z-index: 888;
+	}
+
+	.nav-links {
+		display: none;
+	}
+
+ 	.burger-trigger, .close-trigger {
+ 		position: fixed;
+ 		right: 0;
+ 	}
+
+ 	.burger {
+ 		display: inline-block;
+ 	}
+
+ 	.view-source {
+ 		display: none;
+ 		position: absolute;
+
+ 	}
+
+ 	.nav-links {
+ 		margin-top: 4em;
+ 		background: #efefd0;
+ 		width: 100%;
+ 	}
+
+ 	.nav-links li {
+ 		padding: 1em;
+ 	}
+
+ 	.nav-trigger {
+ 		display: block;
+ 		position: absolute;
+ 	
+ 	}
+
+ 	label[for="nav-trigger"] {
+ 		position: fixed;
+ 		top: 0;
+ 		right: 0;
+ 		z-index: 2;
+ 		width: 3.6em;
+ 		height: 3em;
+ 		cursor: pointer;
+ 	}
+
+ 	.nav-trigger:checked ~ .nav-links {
+ 		display: block;
+ 	}
+
+ 	.nav-trigger:checked ~ .burger-trigger {
+ 		display: none;
+ 	}
+
+ 	.nav-trigger:checked ~ .close {
+ 		display: block;
+ 	}
+
+ 	.nav-trigger:checked ~ .view-source {
+ 		display: block;
+ 	}
+
+	.bio-pic {
+		position: fixed;
+		left: 0;
+		top: 0;
+		height: 3em;
+		width: 3em;
+	}
+
+	.content-wrapper {
+		margin-top: 5em;
+		width: 98%;
+	}
+
+	.chart-wrapper {
+		z-index: 2;
+		position: absolute;
+	}
+
+	.nav-links li {
+		display: inline-block;
+		padding: 0, .5em;
+		text-align: right;
+	}
+
+	.nav-links li a{
+		color: red;
+	}
+
+
+
+}
