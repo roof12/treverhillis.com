@@ -1,6 +1,6 @@
 <?php
 
-$gitJson = file_get_contents("github.json");
+$gitJson = file_get_contents("php/github.json");
 $gitDecode = json_decode($gitJson);
 $linesOfPhp = 0;
 $linesOfCss = 0;

@@ -10,6 +10,8 @@ require_once('php/getCode.php');
 <link rel="stylesheet" type="text/css" href="css/source.css?<?php echo time(); ?>"/>
 
 <script src="http://canvasjs.com/assets/script/canvasjs.min.js"></script>
+<script src="js/sourcenav.js"></script>
+
 <head>
 	<title>Trever Hillis</title>
 </head>
@@ -86,15 +88,3 @@ require_once('php/getCode.php');
 
 
 
-        <script type="text/javascript">
-        	function displaySourceCode(show) {
-        		var codeWrapper = document.getElementById("code-wrapper");
-        		var preTags = codeWrapper.getElementsByTagName("pre");
-        		for (var i = 0, n = preTags.length; i < n; i++) {
-        			if (preTags[i].getAttribute('style') !== "display: none") {
-        				preTags[i].style.display="none";
-        			}
-        			document.getElementById(show).style.display="block";
-        		}
-        	}
-        </script>
