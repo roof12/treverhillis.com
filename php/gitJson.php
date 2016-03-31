@@ -25,4 +25,3 @@ $fp = fopen('github.json', 'a');
 
 fwrite($fp, PHP_EOL.']}');
 fclose($fp);
-?>
