@@ -20,8 +20,18 @@ require_once('php/getCode.php');
 		<input type="checkbox" id="nav-trigger" class="nav-trigger"/>
 		<label for="nav-trigger"></label>
 		<div class="nav-trigger-container">
-			<svg height="100" width="100">
-  				<circle cx="50" cy="50" r="40" fill="#141434" />
+				<svg id="circle-svg" height="100" width="100">
+	  				<circle cx="50" cy="50" r="40" fill="#1c1c44" />
+				</svg>
+
+			<svg id="hamburger-svg" width="100px" height="100px" version="1.1" xmlns="http://www.w3.org/2000/svg">
+				<line x1="1em" y1="2em" x2="6em" y2="2em" style="stroke: #141434; stroke-width: 1.2em;"></line>
+				<line x1="1em" y1="3.7em" x2="6em" y2="3.7em" style="stroke: #141434; stroke-width: 1.2em;"></line>
+				<line x1="1em" y1="5.4em" x2="6em" y2="5.4em" style="stroke: #141434; stroke-width: 1.2em;"></line>
+			</svg>
+			<svg id="close-svg" width="100px" height="100px" version="1.1" xmlns="http://www.w3.org/2000/svg">
+				<line x1="1em" y1="2em" x2="6em" y2="5.4em" style="stroke: #141434; stroke-width: 1.2em;"></line>
+				<line x1="1em" y1="5.4em" x2="6em" y2="2em" style="stroke: #141434; stroke-width: 1.2em;"></line>
 			</svg>
 		</div>
 		<nav class="main-nav" tabindex="0">
