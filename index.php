@@ -199,7 +199,13 @@
 						</ul>
 					</p>
 				<iframe id="iFramePrint" src="treverHillisResume.pdf"></iframe>
-				<a class="print-pdf" onclick="printpdf()">print resume</a>
+				<script type="text/javascript">
+					if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+ 						var printPDF = document.getElementById("print-pdf");
+ 						printPDF.removeAttribute("onclick");
+					}
+				</script>
+				<a class="print-pdf" id="print-pdf" onclick="printpdf()">print resume</a>
 			</article>
 
 			<div id="portfolio" class="nav-trigger-spacer"></div>
