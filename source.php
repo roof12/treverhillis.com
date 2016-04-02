@@ -13,7 +13,8 @@ require_once('php/getCode.php');
 <script src="js/sourcenav.js"></script>
 
 <head>
-	<title>Trever Hillis</title>
+	<title>Trever Hillis Source</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 	<div class="page-wrapper">
