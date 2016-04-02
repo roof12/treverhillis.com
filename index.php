@@ -160,7 +160,6 @@
 							<li>Full fabrication of parts from concept designs to operational reality</li>
 							<li>High level of attention to detail, while abiding to strict deadlines</li>
 							<li>Work in a close team enviornment, dividing tasks according to each others strenghts</li>
-							<li></li>
 						</ul>
 					</p>
 					<h4 class="work-history-company">Wrights Indian Art</h4>
