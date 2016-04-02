@@ -134,10 +134,6 @@
 	.content-wrapper {
 		width: 74%
 	}
-
-	.portfolio-wrapper {
-		max-width: 80%;
-	}
 }
 
 @media screen and (max-width:739px) and (min-width:300px) {
@@ -164,6 +160,10 @@
 		transition-property: opacity, left;
   		transition-duration: 3s, 5s, 2s, 1s;
 	}
+	.resume-wrapper, .portfolio-wrapper {
+		margin-right: 0;
+	}
+
 
 	#circle-svg {
 		display: none;
@@ -182,8 +182,7 @@
 	}
 
 	.content-wrapper {
-		width: 98%;
-		margin-top: 6.5em;
+		width: 100%;
 	}
 
 	.nav-trigger-spacer {
