@@ -3,7 +3,7 @@
 <link rel="stylesheet" type="text/css" href="css/reset.css?<?php echo time(); ?>">
 <link rel="stylesheet" type="text/css" href="css/styles.css?<?php echo time(); ?>"/>
 <script src="http://canvasjs.com/assets/script/canvasjs.min.js"></script>
-<script src="js/printresume.js"></script>
+
 <head>
 	<title>Trever Hillis</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -198,14 +198,7 @@
 							<li>Implemented a user login system with the ability to comment on blog posts</li>
 						</ul>
 					</p>
-				<iframe id="iFramePrint" src="treverHillisResume.pdf"></iframe>
-				<script type="text/javascript">
-					if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
- 						var printPDF = document.getElementById("print-pdf");
- 						printPDF.removeAttribute("onclick");
-					}
-				</script>
-				<a class="print-pdf" id="print-pdf" onclick="printpdf()">print resume</a>
+				<a class="print-pdf" id="print-pdf" href="printResume.php" target="_blank">print resume</a>
 			</article>
 
 			<div id="portfolio" class="nav-trigger-spacer"></div>
