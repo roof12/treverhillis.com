@@ -170,13 +170,15 @@
 	}
 	#hamburger-svg {
 		display: block;
+		padding: 0;
 	}
 
 	.nav-trigger-container {
 		display: block;
 		z-index: 409;
-		width: 7em;
-		height: 7em;
+		padding: 0;
+		width: 4.75em;
+		height: 3.75em;
 	}
 
 	.content-wrapper {
@@ -186,7 +188,7 @@
 
 	.nav-trigger-spacer {
 		display: block;
-		height: 3.5em;
+		height: 1.5em;
 		background: 
 		width: 98%;
 	}
@@ -213,6 +215,7 @@
 
 	.nav-trigger:checked ~ .nav-trigger-container {
 		width: 44%;
+		height: 7em;
 		/*text-align: right;*/
 	}
 
