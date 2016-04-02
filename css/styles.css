@@ -134,6 +134,10 @@
 	.content-wrapper {
 		width: 74%
 	}
+
+	.portfolio-wrapper {
+		max-width: 80%;
+	}
 }
 
 @media screen and (max-width:739px) and (min-width:300px) {
@@ -224,7 +228,11 @@
 	#nav-trigger:not(:checked) ~ .main-nav .nav-links {
 		display: none;
 		visibility: hidden;
-}
+        }
+
+	.portfolio-wrapper a img{
+		width: 300px;
+	}	
 
 
 
