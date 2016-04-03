@@ -208,7 +208,7 @@
 				<p class="github-links"><a href="http://github.com/revertcreations/whatthesex">github</a></p>
 				<a href="http://www.wrightsgallery.com"><img src="img/wrightsgallery.png" width="400px"></a>
 				<p class="github-links"><a href="http://github.com/revertcreations/wrightsLaravel">github</a></p>
-				<a href="http://www.wildhumansmusic.com"><img src="img/wildhumans.png" width="400px"></a>
+				<a href="http://wildhumansmusic.com/"><img src="img/wildhumans.png" width="400px"></a>
 				<p class="github-links"><a href="https://github.com/RPJarvis/wild_humans">github</a></p>
 			</article>
 		</div>
