@@ -142,6 +142,8 @@
 							<li>Javascript, JQuery</li>
 							<li>CSS, LESS, SASS</li>
 							<li>HTML, BLADE</li>
+							<li>PHP, Laravel</li>
+							<li>Python, Django</li>
 							<li>Windows, OSX, Linux</li>
 							<li>Git, Bitbucket</li>
 							<li>Vagrant</li>
