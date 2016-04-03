@@ -1,0 +1,9 @@
+img/
+canvasjs/
+github.json
+backup.json
+*.json
+*.jpg
+*.gif
+*.jpeg
+*.pdf

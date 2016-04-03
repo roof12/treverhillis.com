@@ -1,18 +1,18 @@
 <?php 
 require_once('php/getCode.php');
 ?>
-	
-
 <!DOCTYPE html>
-<html>
-<link rel="stylesheet" type="text/css" href="css/reset.css?<?php echo time(); ?>">
-<link rel="stylesheet" type="text/css" href="css/styles.css?<?php echo time(); ?>"/>
-<link rel="stylesheet" type="text/css" href="css/source.css?<?php echo time(); ?>"/>
-
-<script src="http://canvasjs.com/assets/script/canvasjs.min.js"></script>
-<script src="js/sourcenav.js"></script>
-
-<head>
+<head lang="en">
+	<meta charset="UTF-8">
+	<meta http-equiv="x-ua-compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<meta name="author" content="Trever Hillis treverhillis@gmail.com">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css"/>
+	<link rel="stylesheet" type="text/css" href="css/source.css"/>
+	<script src="http://canvasjs.com/assets/script/canvasjs.min.js"></script>
+	<title>Trever Hillis</title>
+</head>
 	<title>Trever Hillis Source</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>

@@ -126,6 +126,16 @@
 	font-size: .66em;
 }
 
+.github-links {
+	text-align: left;
+	margin-left: 2em;
+}
+
+.github-links a {
+	color: red;
+}
+
+
 @media screen and (max-width: 990px) and (min-width: 740px) {
 	.nav-trigger-container {
 		width: 23%;

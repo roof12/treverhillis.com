@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
-<link rel="stylesheet" type="text/css" href="css/reset.css?<?php echo time(); ?>">
-<link rel="stylesheet" type="text/css" href="css/styles.css?<?php echo time(); ?>"/>
-<script src="http://canvasjs.com/assets/script/canvasjs.min.js"></script>
-
-<head>
+<head lang="en">
+	<meta charset="UTF-8">
+	<meta http-equiv="x-ua-compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<meta name="author" content="Trever Hillis treverhillis@gmail.com">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css"/>
+	<script src="http://canvasjs.com/assets/script/canvasjs.min.js"></script>
 	<title>Trever Hillis</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 	<div class="page-wrapper">
@@ -102,8 +104,6 @@
 					chartlinesOfCode.render();
 					chartlinesOfCode = {};
 					
-
-
 					chartCommitsOfTheWeek.render();
 					chartCommitsOfTheWeek = {};
 				
@@ -203,7 +203,11 @@
 			<div id="portfolio" class="nav-trigger-spacer"></div>
 			<article class="portfolio-wrapper">
 				<a href="http://www.whatthesex.com"><img src="img/whatthesex.png" width="400px"></a>
+				<p class="github-links"><a href="http://github.com/revertcreations/whatthesex">github</a></p>
 				<a href="http://www.wrightsgallery.com"><img src="img/wrightsgallery.png" width="400px"></a>
+				<p class="github-links"><a href="http://github.com/revertcreations/wrightsLaravel">github</a></p>
+				<a href="http://www.wildhumansmusic.com"><img src="img/wildhumans.png" width="400px"></a>
+				<p class="github-links"><a href="https://github.com/RPJarvis/wild_humans">github</a></p>
 			</article>
 		</div>
 		<footer id="contact" class="contact-footer">
