@@ -11,6 +11,7 @@ require_once('php/getCode.php');
 	<link rel="stylesheet" type="text/css" href="css/styles.css"/>
 	<link rel="stylesheet" type="text/css" href="css/source.css"/>
 	<script src="http://canvasjs.com/assets/script/canvasjs.min.js"></script>
+	<script src="js/sourcenav.js"></script>
 	<title>Trever Hillis</title>
 </head>
 	<title>Trever Hillis Source</title>

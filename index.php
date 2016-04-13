@@ -142,9 +142,9 @@
 							<li>Love learning new languages, frameworks, libraries, and design patterns</li>
 							<li>Confident in Javascript/JQuery, while experimenting with frameworks such as AngularJS, Node.js</li>
 							<li>Writing efficient and semantic HTML</li>
-							<li>Experience creating templating patterns in CSS and SASS such as partials, layout extentions, and mixins</li>
-							<li>Very comfortable administrating linux servers from the command line</li>
-							<li>Obsessed with exploring flavors of linux, spinning up new Vagrant boxes multiple times a week</li>
+							<li>Experience creating templating patterns in CSS and SASS such as partials, layout extensions, and mix-ins</li>
+							<li>Very comfortable administrating Linux servers from the command line</li>
+							<li>Obsessed with exploring flavors of Linux, spinning up new Vagrant boxes multiple times a week</li>
 							<li>Understanding MVC frameworks and concepts, such as Laravel and Django</li>
 							<li>Proficiency in git source control system using both Git and Bitbucket</li>
 							<li>Use Sublime Text 3, PyCharm, Terminal, Developer Tools, and Adobe Creative Suite daily</li>
