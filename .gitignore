@@ -1,5 +1,6 @@
 img/
 canvasjs/
+holdmyticket/node_modules
 github.json
 backup.json
 *.json
