@@ -24,6 +24,9 @@ var profilePicture = function(value) {
 }
 
 var facebookName = function(value) {
+	if(value = null) {
+		document.getElementById('facebook-name').innerHTML = "Hold My Ticket";
+	} 
 	document.getElementById('facebook-name').innerHTML = value['name'];
 };
 
