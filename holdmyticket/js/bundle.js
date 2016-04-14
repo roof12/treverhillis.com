@@ -6625,6 +6625,7 @@ var facebookRequest = function (path, writeToScreen) {
 		res.on('end', function() {
 			var responseObject = JSON.parse(responseString);
 			writeToScreen(responseObject);
+			console.log(responseObject);
 		});
 	});
 	facebookRequest.end();
