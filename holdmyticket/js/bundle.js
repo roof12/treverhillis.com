@@ -6595,17 +6595,18 @@ var profilePicture = function(value) {
 var facebookName = function(value) {
 	if(value = null) {
 		document.getElementById('facebook-name').innerHTML = "Hold My Ticket";
-		console.log(value);
 	} 
 	document.getElementById('facebook-name').innerHTML = value['name'];
 };
 
-var latestPostTime = function(value) {
-	document.getElementById('latest-facebook-post-time').innerHTML = new Date(value['data'][0]['created_time']).toLocaleString();
-};
 
 var latestPost = function(value) {
-	document.getElementById('latest-facebook-post').innerHTML = value['data'][0]['message'];
+	var c = 0;
+	for(var post in value['data']) {
+		document.getElementById('latest-facebook-post-time-'+c).innerHTML = new Date(value['data'][c]['created_time']).toLocaleString();
+		document.getElementById('latest-facebook-post-'+c).innerHTML = value['data'][c]['message'];
+		c++;
+	}
 };
 
 
@@ -6639,7 +6640,6 @@ var facebookRequest = function (path, writeToScreen) {
 var getCoverImg = facebookRequest(facebookApiPaths['cover'], coverImg);
 var getProfilePicture = facebookRequest(facebookApiPaths['profilePicture'], profilePicture);
 var getName = facebookRequest(facebookApiPaths['name'], facebookName);
-var getLatestPostTime = facebookRequest(facebookApiPaths['posts'], latestPostTime);
 var getLatestPost = facebookRequest(facebookApiPaths['posts'], latestPost);
 
 
