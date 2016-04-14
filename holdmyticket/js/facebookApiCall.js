@@ -30,7 +30,6 @@ var facebookName = function(value) {
 	document.getElementById('facebook-name').innerHTML = value['name'];
 };
 
-
 var latestPost = function(value) {
 	var c = 0;
 	for(var post in value['data']) {
@@ -39,8 +38,6 @@ var latestPost = function(value) {
 		c++;
 	}
 };
-
-
 
 var facebookRequest = function (path, writeToScreen) {
 	var options = {
@@ -60,13 +57,11 @@ var facebookRequest = function (path, writeToScreen) {
 
 		res.on('end', function() {
 			var responseObject = JSON.parse(responseString);
-			writeToScreen(responseObject);
-			console.log(responseObject);
+			writeToScreen(responseObject);;
 		});
 	});
 	facebookRequest.end();
 };
-
 
 var getCoverImg = facebookRequest(facebookApiPaths['cover'], coverImg);
 var getProfilePicture = facebookRequest(facebookApiPaths['profilePicture'], profilePicture);
