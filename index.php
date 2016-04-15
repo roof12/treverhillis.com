@@ -128,7 +128,7 @@
 				<h3>Objective</h3>
 				<hr>
 					<p>
-						As a digital designer, my objective is to create cohesive aesthetic content for brands that accurately suite the target audencies. A thorough understanding of cross platform development will insure all final content will be accessible across the required devices. 
+						As a digital designer, my objective is to create cohesive aesthetic content for brands that accurately suit the target audiences. A thorough understanding of cross platform development will insure all final content will be accessible across the required devices.
 					</p>
 				<h3>Summary</h3>
 				<hr>
@@ -193,7 +193,7 @@
 					<h5 class="work-history-date">March 2015-September 2015</h5>
 					<p>
 						<ul class="work-history-duties">
-							<li>Consulted on website design, worked with client to bring her design ideas to friction.</li>
+							<li>Consulted on website design, worked with client to bring her design ideas to fruition.</li>
 							<li>Translated PSD layout into a mobile first design.</li>
 							<li>Full fabrication of parts from concept designs to operational reality.</li>
 							<li>Created a CMS for creating and managing blogs with Laravel.</li>
